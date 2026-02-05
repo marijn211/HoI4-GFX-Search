@@ -104,6 +104,13 @@
         ]
       },
       {
+        "name": "No Compromise, No Surrender",
+        "gfx_folder": "./dlc_gfx/dlc049_no_compromise_no_surrender",
+        "interface_folders": [
+          "./interface/ncns"
+        ]
+      },
+      {
         "name": "Graveyard of Empires",
         "gfx_folder": "./dlc_gfx/dlc046_graveyard_of_empires",
         "interface_folders": [
