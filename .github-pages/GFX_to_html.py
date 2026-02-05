@@ -59,17 +59,14 @@ for file in finallist:
 
 		elements = table.split("\"")
 		checktype = None
-		keeptable = False
 
 		for element in elements:
 			if checktype == "GFX_token":
 				outputtext = outputtext.replace("@GFX_token", element)
-				keeptable = True
 				checktype = None
 			elif checktype == "GFX_path":
 				element = element.replace(".dds", ".png")
 				outputtext = outputtext.replace("@GFXPATH", element)
-				keeptable = True
 				checktype = None
 			elif "name" in element:
 				checktype = "GFX_token"
