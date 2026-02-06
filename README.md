@@ -6,7 +6,7 @@ Alphabetical order was sacrificed to simplify the Python code required *greatly*
 
 All images are © Copyright Paradox Development Studio. Hearts of Iron® is a registered trademark of Paradox Interactive. This tool is not affiliated in any way with Paradox Development Studio or Paradox Interactive.
 
-Made by Yard1
+Made by Yard1, Road to 56 and 1.17 assets added by marijn211
 
 Inspired by https://wyandotte.github.io/hoi4-icon-search/
 
