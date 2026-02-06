@@ -50,6 +50,7 @@ for file in finallist:
 	currtext = currtext.split("\n")								#split lines, only necessary for next step
 	currtext = "".join([removecomment(x) for x in currtext])	#discard any code behind comments, put the text back together
 	currtext = currtext.replace("\n", "")						#discard newline symbols
+	currtext = currtext.replace("spriteType", "SpriteType")		#fix inconsistent SpriteType capititalization, could also be done with regex plugin
 	gfxtables = currtext.split("SpriteType={")
 
 	os.chdir(savegoal)
