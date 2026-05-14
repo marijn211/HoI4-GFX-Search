@@ -1,12 +1,12 @@
 # HoI4/Road to 56 GFX Search
 
-This tool helps you easily find GFX from unmodded (vanilla) Hearts of Iron 4 1.17 or Road to 56.
+This tool helps you easily find GFX from unmodded (vanilla) Hearts of Iron 4 1.18 or Road to 56.
 
 Alphabetical order was sacrificed to simplify the Python code required *greatly*.
 
 All images are © Copyright Paradox Development Studio. Hearts of Iron® is a registered trademark of Paradox Interactive. This tool is not affiliated in any way with Paradox Development Studio or Paradox Interactive.
 
-Made by Yard1, Road to 56 and 1.17 assets added by marijn211
+Made by Yard1, Road to 56, 1.17 and 1.18 assets added by marijn211
 
 Inspired by https://wyandotte.github.io/hoi4-icon-search/
 
