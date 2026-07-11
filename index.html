@@ -166,6 +166,26 @@
       display: flex;
       flex-flow: row wrap;
       align-items: center;
+      position: relative;
+    }
+
+    .deselect-categories-btn {
+      position: absolute;
+      right: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      margin-right: 15px;
+      white-space: nowrap;
+      border: 1px solid #ddd;
+      background-color: #f6f6f6;
+      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .deselect-categories-btn:hover {
+      background-color: #eee;
     }
 
     .toggle-button {
@@ -370,6 +390,7 @@
       </div>
       
       <div id="topbar" class="topbar">
+        <button type="button" class="deselect-categories-btn" onclick="selectAllCategories(false)">Deselect All</button>
         <label class="toggle-button">
           <input id="goalsSection-toggle" type="checkbox" onclick="toggleIcons('goalsSection')" checked>
           <span class="button toggle-button-span">National Focuses</span>
@@ -94161,6 +94182,15 @@
       processFiltering();
     }
 
+    function selectAllCategories(select) {
+      const categoryCheckboxes = document.querySelectorAll('#topbar input[type="checkbox"]');
+      categoryCheckboxes.forEach(checkbox => {
+        checkbox.checked = select;
+        const sectionId = checkbox.id.replace('-toggle', '');
+        toggleIcons(sectionId);
+      });
+    }
+
     function hideEmptySections() {
       const containers = document.getElementsByClassName('icon-container');
       for (let index = 0; index < containers.length; index++) {
@@ -94279,6 +94309,7 @@
     window.toggleDLC = toggleDLC;
     window.selectAllDLCs = selectAllDLCs;
     window.selectAllMods = selectAllMods;
+    window.selectAllCategories = selectAllCategories;
   })();
 </script>
 
