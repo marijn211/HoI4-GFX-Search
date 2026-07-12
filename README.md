@@ -8,6 +8,8 @@ All images are © Copyright Paradox Development Studio. Hearts of Iron® is a re
 
 Made by Yard1, Road to 56, 1.17 and 1.18 assets added by marijn211
 
+Original source https://github.com/Yard1/HoI4-GFX-Search/
+
 Inspired by https://wyandotte.github.io/hoi4-icon-search/
 
 Search icon from https://feathericons.com/
